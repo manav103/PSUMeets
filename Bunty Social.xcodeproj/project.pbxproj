@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D994DA72916EDC10077D294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D994DA62916EDC10077D294 /* AppDelegate.swift */; };
+		8D994DA92916EDC10077D294 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D994DA82916EDC10077D294 /* SceneDelegate.swift */; };
+		8D994DAB2916EDC10077D294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D994DAA2916EDC10077D294 /* ViewController.swift */; };
+		8D994DAE2916EDC10077D294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D994DAC2916EDC10077D294 /* Main.storyboard */; };
+		8D994DB12916EDC10077D294 /* Bunty_Social.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D994DAF2916EDC10077D294 /* Bunty_Social.xcdatamodeld */; };
+		8D994DB32916EDC20077D294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D994DB22916EDC20077D294 /* Assets.xcassets */; };
+		8D994DB62916EDC20077D294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D994DB42916EDC20077D294 /* LaunchScreen.storyboard */; };
+		8D994DC02916F5590077D294 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D994DBF2916F5590077D294 /* QuestionViewController.swift */; };
+		8D994DC22916FB050077D294 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D994DC12916FB050077D294 /* PickerViewController.swift */; };
+		8D994DC4291701CF0077D294 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D994DC3291701CF0077D294 /* SelectViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D994DA32916EDC10077D294 /* Bunty Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bunty Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D994DA62916EDC10077D294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D994DA82916EDC10077D294 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D994DAA2916EDC10077D294 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D994DAD2916EDC10077D294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D994DB02916EDC10077D294 /* Bunty_Social.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bunty_Social.xcdatamodel; sourceTree = "<group>"; };
+		8D994DB22916EDC20077D294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D994DB52916EDC20077D294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D994DB72916EDC20077D294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D994DBF2916F5590077D294 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		8D994DC12916FB050077D294 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		8D994DC3291701CF0077D294 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D994DA02916EDC10077D294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D994D9A2916EDC10077D294 = {
+			isa = PBXGroup;
+			children = (
+				8D994DA52916EDC10077D294 /* Bunty Social */,
+				8D994DA42916EDC10077D294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D994DA42916EDC10077D294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D994DA32916EDC10077D294 /* Bunty Social.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D994DA52916EDC10077D294 /* Bunty Social */ = {
+			isa = PBXGroup;
+			children = (
+				8D994DA62916EDC10077D294 /* AppDelegate.swift */,
+				8D994DA82916EDC10077D294 /* SceneDelegate.swift */,
+				8D994DBF2916F5590077D294 /* QuestionViewController.swift */,
+				8D994DC12916FB050077D294 /* PickerViewController.swift */,
+				8D994DAA2916EDC10077D294 /* ViewController.swift */,
+				8D994DC3291701CF0077D294 /* SelectViewController.swift */,
+				8D994DAC2916EDC10077D294 /* Main.storyboard */,
+				8D994DB22916EDC20077D294 /* Assets.xcassets */,
+				8D994DB42916EDC20077D294 /* LaunchScreen.storyboard */,
+				8D994DB72916EDC20077D294 /* Info.plist */,
+				8D994DAF2916EDC10077D294 /* Bunty_Social.xcdatamodeld */,
+			);
+			path = "Bunty Social";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D994DA22916EDC10077D294 /* Bunty Social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D994DBA2916EDC20077D294 /* Build configuration list for PBXNativeTarget "Bunty Social" */;
+			buildPhases = (
+				8D994D9F2916EDC10077D294 /* Sources */,
+				8D994DA02916EDC10077D294 /* Frameworks */,
+				8D994DA12916EDC10077D294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bunty Social";
+			productName = "Bunty Social";
+			productReference = 8D994DA32916EDC10077D294 /* Bunty Social.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D994D9B2916EDC10077D294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8D994DA22916EDC10077D294 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 8D994D9E2916EDC10077D294 /* Build configuration list for PBXProject "Bunty Social" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D994D9A2916EDC10077D294;
+			productRefGroup = 8D994DA42916EDC10077D294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D994DA22916EDC10077D294 /* Bunty Social */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D994DA12916EDC10077D294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D994DB62916EDC20077D294 /* LaunchScreen.storyboard in Resources */,
+				8D994DB32916EDC20077D294 /* Assets.xcassets in Resources */,
+				8D994DAE2916EDC10077D294 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D994D9F2916EDC10077D294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D994DC22916FB050077D294 /* PickerViewController.swift in Sources */,
+				8D994DAB2916EDC10077D294 /* ViewController.swift in Sources */,
+				8D994DC02916F5590077D294 /* QuestionViewController.swift in Sources */,
+				8D994DC4291701CF0077D294 /* SelectViewController.swift in Sources */,
+				8D994DB12916EDC10077D294 /* Bunty_Social.xcdatamodeld in Sources */,
+				8D994DA72916EDC10077D294 /* AppDelegate.swift in Sources */,
+				8D994DA92916EDC10077D294 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D994DAC2916EDC10077D294 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D994DAD2916EDC10077D294 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D994DB42916EDC20077D294 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D994DB52916EDC20077D294 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D994DB82916EDC20077D294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D994DB92916EDC20077D294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D994DBB2916EDC20077D294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89F6LM2X6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bunty Social/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bunty-Social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D994DBC2916EDC20077D294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89F6LM2X6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bunty Social/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bunty-Social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D994D9E2916EDC10077D294 /* Build configuration list for PBXProject "Bunty Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D994DB82916EDC20077D294 /* Debug */,
+				8D994DB92916EDC20077D294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D994DBA2916EDC20077D294 /* Build configuration list for PBXNativeTarget "Bunty Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D994DBB2916EDC20077D294 /* Debug */,
+				8D994DBC2916EDC20077D294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D994DAF2916EDC10077D294 /* Bunty_Social.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D994DB02916EDC10077D294 /* Bunty_Social.xcdatamodel */,
+			);
+			currentVersion = 8D994DB02916EDC10077D294 /* Bunty_Social.xcdatamodel */;
+			path = Bunty_Social.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D994D9B2916EDC10077D294 /* Project object */;
+}
